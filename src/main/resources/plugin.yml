@@ -1,0 +1,9 @@
+name: WarpLite
+version: '${project.version}'
+main: com.maddyjace.warplite.WarpLite
+
+commands:
+  warplite:
+    description: Main plugin command.
+    aliases: [warplite, warp, setwarp, removewarp]
+    permission: warplite.admin
