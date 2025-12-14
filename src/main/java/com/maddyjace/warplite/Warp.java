@@ -19,9 +19,10 @@ public enum Warp {
 
     private final Gson gson = new GsonBuilder().setPrettyPrinting().serializeNulls().create();
     private final Map<String, Location> warps = new ConcurrentHashMap<>();
+    private final Map<String, String> warpsFileName = new ConcurrentHashMap<>();
 
     public void onEnable() {
-        warps.clear();
+        warps.clear(); warpsFileName.clear();
         loadFile(getWarpFolder(), file -> {
             if (isJsonFile(file.getName())) {
                 Map<String, String> jsonData = readJson(file);
@@ -36,16 +37,21 @@ public enum Warp {
                 float pitch   = Float.parseFloat(jsonData.get("pitch"));
                 Location location = new Location(world, x, y, z, yaw, pitch);
                 warps.put(fileName, location);
+                warpsFileName.put(fileName, getSuffix(fileName));
             }
         });
     }
 
     public void onDisable() {
         warps.clear();
+        warpsFileName.clear();
     }
 
     public Map<String, Location> getWarps() {
         return warps;
+    }
+    public Map<String, String> getWarpsFileName() {
+        return warpsFileName;
     }
 
     /** 加载Warp数据到内存中 */

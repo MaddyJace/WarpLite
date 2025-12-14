@@ -17,11 +17,14 @@ public class Commands implements Listener {
         Player player = event.getPlayer();
         String[] args = splitCommand(event.getMessage());
 
-        switch (args[0]) {
-            case "warp":
-                warp(player, args);
-            case "setwarp":
-                setWarp(player, args);
+        if (args[0].equalsIgnoreCase("warp")) {
+            warp(player, args);
+            return;
+        }
+
+        if (args[0].equalsIgnoreCase("setwarp")) {
+            setWarp(player, args);
+            return;
         }
 
     }
