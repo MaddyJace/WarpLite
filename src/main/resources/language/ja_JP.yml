@@ -1,0 +1,11 @@
+warp: "&7[&eワープ&7] &aワープ地点 &6{0} &aへテレポートしました！"
+noPermissionWarp: "&7[&eワープ&7] &cワープ地点 &6{0}&c へ移動する権限がありません。必要な権限: &a warpLite.{0}/warpLite.*&c"
+noWarp: "&7[&eワープ&7] &cワープ地点 &6{0} &cは存在しません！"
+noPlayer: "&7[&eワープ&7] &cオフラインのプレイヤー &a{0} &cをワープ地点 &6{0}&c に移動できません！"
+
+setWarp: "&7[&eワープ&7] &aワープ地点 &6{0} &aを設定しました！"
+noPermissionSetWarp: "&7[&eワープ&7] &cワープ地点の設定に失敗しました。権限 &a warpLite.set &cがありません！"
+
+warpDelete: "&7[&eワープ&7] &aワープ地点 &6{0} &aを削除しました！"
+noPermissionWarpDelete: "&7[&eワープ&7] &cワープ地点 &6{0}&c を削除する権限がありません。必要: &a warplite.delete&c"
+failedToDeleteFile: "&7[&eワープ&7] &cファイル {0}{1} を削除できません。存在しないか、使用中の可能性があります。"

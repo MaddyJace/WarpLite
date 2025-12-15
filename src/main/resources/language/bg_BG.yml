@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aУспешно се телепортира до уорп &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cНямаш право да използваш уорп &6{0}&c. Изисква се: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cУорпът &6{0} &cне съществува!"
+noPlayer: "&7[&eWarp&7] &cОфлайн играчът &a{0} &cне може да бъде телепортиран до уорп &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aУорпът &6{0} &aе създаден успешно!"
+noPermissionSetWarp: "&7[&eWarp&7] &cНеуспешно създаване на уорп. Липсващо право: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aУорпът &6{0} &aе изтрит успешно!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cНямаш право да изтриеш уорпа &6{0}&c. Изисква се: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cФайлът {0}{1} не може да бъде изтрит. Може да не съществува или да се използва."

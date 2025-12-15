@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aDu er blevet teleporteret til warp &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cDu har ikke tilladelse til at bruge warp &6{0}&c. Kræver: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp &6{0} &cfinnes ikke!"
+noPlayer: "&7[&eWarp&7] &cKan ikke teleportere offline-spilleren &a{0} &ctil warp &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &aer blevet oprettet!"
+noPermissionSetWarp: "&7[&eWarp&7] &cKunne ikke oprette warp. Manglende tilladelse: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &aer blevet slettet!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cDu har ikke tilladelse til at slette warp &6{0}&c. Kræver: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cKunne ikke slette filen {0}{1}. Den findes muligvis ikke eller er i brug."

@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aÚspěšně teleportováno na warp &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cNemáš oprávnění k teleportaci na warp &6{0}&c. Vyžadováno: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp &6{0} &cneexistuje!"
+noPlayer: "&7[&eWarp&7] &cNelze teleportovat offline hráče &a{0} &cna warp &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &abyl úspěšně nastaven!"
+noPermissionSetWarp: "&7[&eWarp&7] &cNelze nastavit warp. Chybí oprávnění &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &abyl úspěšně smazán!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cNelze smazat warp &6{0}&c. Chybí oprávnění &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cSoubor {0}{1} nelze smazat. Možná neexistuje nebo je používán."

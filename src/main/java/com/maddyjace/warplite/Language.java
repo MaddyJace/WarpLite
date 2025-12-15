@@ -95,11 +95,40 @@ public enum Language {
         File taskFolder = new File(pluginFolder, "language");
         if (!taskFolder.exists()) {
             taskFolder.mkdirs();
-            com.maddyjace.warplite.Get.plugin().saveResource("language/en_US.yml", false);
-            com.maddyjace.warplite.Get.plugin().saveResource("language/zh_CN.yml", false);
+            for (String path : DEFAULT_LANG_FILES) {
+                com.maddyjace.warplite.Get.plugin().saveResource(path, false);
+            }
         }
         return taskFolder;
     }
+
+    /** 语言文件 */
+    private static final String[] DEFAULT_LANG_FILES = {
+            "language/ar_SA.yml",
+            "language/bg_BG.yml",
+            "language/cs_CZ.yml",
+            "language/da_DK.yml",
+            "language/de_DE.yml",
+            "language/el_GR.yml",
+            "language/en_US.yml",
+            "language/es_ES.yml",
+            "language/fi_FI.yml",
+            "language/fr_FR.yml",
+            "language/hu_HU.yml",
+            "language/it_IT.yml",
+            "language/ja_JP.yml",
+            "language/ko_KR.yml",
+            "language/nb_NO.yml",
+            "language/nl_NL.yml",
+            "language/pl_PL.yml",
+            "language/pt_BR.yml",
+            "language/ro_RO.yml",
+            "language/ru_RU.yml",
+            "language/sv_SE.yml",
+            "language/tr_TR.yml",
+            "language/zh_CN.yml",
+            "language/zh_TW.yml"
+    };
 
     /** 读取全部有效的{@code 语言_国家.YAML}文件，并单独执行逻辑。 */
     private void getLanguageFiles(File folder, BiConsumer<String, File> runnable) {

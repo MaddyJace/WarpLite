@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aSuccesvol geteleporteerd naar warp &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cGeen toestemming om naar warp &6{0}&c te teleporteren. Vereist: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp &6{0} &cbestaat niet!"
+noPlayer: "&7[&eWarp&7] &cKan offline speler &a{0} &cniet naar warp &6{0}&c teleporteren!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &ais succesvol aangemaakt!"
+noPermissionSetWarp: "&7[&eWarp&7] &cKan warp niet aanmaken. Ontbrekende permissie: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &ais succesvol verwijderd!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cGeen toestemming om warp &6{0}&c te verwijderen. Vereist: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cKan bestand {0}{1} niet verwijderen. Mogelijk bestaat het niet of is het in gebruik."

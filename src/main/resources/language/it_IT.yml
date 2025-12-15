@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aTeletrasportato con successo al warp &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cPermessi insufficienti per il warp &6{0}&c. Richiesto: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cIl warp &6{0} &cnon esiste!"
+noPlayer: "&7[&eWarp&7] &cImpossibile teletrasportare il giocatore offline &a{0} &cal warp &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &aimpostato con successo!"
+noPermissionSetWarp: "&7[&eWarp&7] &cImpossibile impostare il warp. Permesso &a warpLite.set &cmancante!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &aeliminato con successo!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cImpossibile eliminare il warp &6{0}&c. Permesso &a warplite.delete&c mancante!"
+failedToDeleteFile: "&7[&eWarp&7] &cImpossibile eliminare il file {0}{1}. Potrebbe non esistere o essere in uso."

@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aSikeresen teleportáltál a &6{0} &awarphoz!"
+noPermissionWarp: "&7[&eWarp&7] &cNincs jogosultságod a &6{0} &cwarp használatához. Szükséges: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cA &6{0} &cwarp nem létezik!"
+noPlayer: "&7[&eWarp&7] &cAz offline játékos &a{0} &cnem teleportálható a &6{0} &cwarpra!"
+
+setWarp: "&7[&eWarp&7] &aA &6{0} &awarp sikeresen létrehozva!"
+noPermissionSetWarp: "&7[&eWarp&7] &cWarp létrehozása sikertelen. Hiányzó jogosultság: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aA &6{0} &awarp sikeresen törölve!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cNincs jogosultságod a &6{0} &cwarp törléséhez. Szükséges: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cA(z) {0}{1} fájl nem törölhető. Lehet, hogy nem létezik vagy használatban van."

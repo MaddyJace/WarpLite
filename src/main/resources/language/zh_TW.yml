@@ -1,0 +1,11 @@
+warp: "&7[&e地標&7] &a已傳送至 &6{0} &a地標！"
+noPermissionWarp: "&7[&e地標&7] &c無法傳送至 &6{0} &c地標，缺少 &a warpLite.{0}/warpLite.* &c權限！"
+noWarp: "&7[&e地標&7] &c不存在 &6{0} &c地標！"
+noPlayer: "&7[&e地標&7] &c無法將離線玩家 &a{0} &c傳送至 &6{0} &c地標！"
+
+setWarp: "&7[&e地標&7] &a成功設定 &6{0} &a地標！"
+noPermissionSetWarp: "&7[&e地標&7] &c地標設定失敗，缺少 &a warpLite.set &c權限！"
+
+warpDelete: "&7[&e地標&7] &a成功刪除 &6{0} &a地標！"
+noPermissionWarpDelete: "&7[&e地標&7] &c無法刪除 &6{0} &c地標，缺少 &a warplite.delete &c權限！"
+failedToDeleteFile: "&7[&e地標&7] &c無法刪除檔案 {0}{1}，可能不存在或正在使用中。"

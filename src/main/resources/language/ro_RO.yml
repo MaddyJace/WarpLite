@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aAi fost teleportat cu succes la warp-ul &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cNu ai permisiunea de a folosi warp-ul &6{0}&c. Necesită: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp-ul &6{0} &cnu există!"
+noPlayer: "&7[&eWarp&7] &cJucătorul offline &a{0} &cnu poate fi teleportat la warp-ul &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp-ul &6{0} &aa fost creat cu succes!"
+noPermissionSetWarp: "&7[&eWarp&7] &cNu s-a putut crea warp-ul. Permisiune lipsă: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp-ul &6{0} &aa fost șters cu succes!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cNu ai permisiunea să ștergi warp-ul &6{0}&c. Necesită: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cNu s-a putut șterge fișierul {0}{1}. Poate nu există sau este folosit."

@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aPomyślnie przeteleportowano do warpu &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cBrak uprawnień do teleportacji do warpu &6{0}&c. Wymagane: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp &6{0} &cnie istnieje!"
+noPlayer: "&7[&eWarp&7] &cNie można przeteleportować offline gracza &a{0} &cdo warpu &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &azostał utworzony!"
+noPermissionSetWarp: "&7[&eWarp&7] &cNie można utworzyć warpu. Brak uprawnień &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &azostał usunięty!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cBrak uprawnień do usunięcia warpu &6{0}&c. Wymagane: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cNie można usunąć pliku {0}{1}. Może nie istnieć lub być używany."

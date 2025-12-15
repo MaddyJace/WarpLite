@@ -1,0 +1,11 @@
+warp: "&7[&eTéléportation&7] &aTéléporté avec succès au point &6{0}&a !"
+noPermissionWarp: "&7[&eTéléportation&7] &cImpossible de se téléporter au point &6{0}&c. Permission manquante : &a warpLite.{0}/warpLite.*&c !"
+noWarp: "&7[&eTéléportation&7] &cLe point &6{0} &cn'existe pas !"
+noPlayer: "&7[&eTéléportation&7] &cImpossible de téléporter le joueur hors ligne &a{0} &cvers le point &6{0}&c !"
+
+setWarp: "&7[&eTéléportation&7] &aPoint &6{0} &adéfini avec succès !"
+noPermissionSetWarp: "&7[&eTéléportation&7] &cÉchec de la création du point. Permission &a warpLite.set &cmanquante !"
+
+warpDelete: "&7[&eTéléportation&7] &aPoint &6{0} &asupprimé avec succès !"
+noPermissionWarpDelete: "&7[&eTéléportation&7] &cImpossible de supprimer le point &6{0}&c. Permission &a warplite.delete &cmanquante !"
+failedToDeleteFile: "&7[&eTéléportation&7] &cImpossible de supprimer le fichier {0}{1}. Il n'existe peut-être pas ou est en cours d'utilisation."

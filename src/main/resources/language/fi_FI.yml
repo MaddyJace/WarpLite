@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aSinut on teleportattu warppiin &6{0}&a!"
+noPermissionWarp: "&7[&eWarp&7] &cSinulla ei ole oikeutta teleportata warppiin &6{0}&c. Tarvitaan: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &cWarp &6{0} &cei ole olemassa!"
+noPlayer: "&7[&eWarp&7] &cOffline-pelaajaa &a{0} &cei voida teleportata warppiin &6{0}&c!"
+
+setWarp: "&7[&eWarp&7] &aWarp &6{0} &aluotu onnistuneesti!"
+noPermissionSetWarp: "&7[&eWarp&7] &cWarpia ei voitu luoda. Puuttuva oikeus: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &aWarp &6{0} &apoistettu onnistuneesti!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cEi oikeutta poistaa warppia &6{0}&c. Tarvitaan: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &cTiedostoa {0}{1} ei voitu poistaa. Se ei ehkä ole olemassa tai on käytössä."

@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &a&6{0} &awarplarına başarıyla ışınlandın!"
+noPermissionWarp: "&7[&eWarp&7] &c&6{0} &cwarpına ışınlanmak için yetkin yok. Gerekli yetki: &a warpLite.{0}/warpLite.*&c!"
+noWarp: "&7[&eWarp&7] &c&6{0} &cwarpı mevcut değil!"
+noPlayer: "&7[&eWarp&7] &cÇevrimdışı oyuncu &a{0} &c&6{0} &cwarpına ışınlanamaz!"
+
+setWarp: "&7[&eWarp&7] &a&6{0} &awarpı başarıyla oluşturuldu!"
+noPermissionSetWarp: "&7[&eWarp&7] &cWarp oluşturulamadı. Gerekli yetki: &a warpLite.set&c!"
+
+warpDelete: "&7[&eWarp&7] &a&6{0} &awarpı başarıyla silindi!"
+noPermissionWarpDelete: "&7[&eWarp&7] &c&6{0} &cwarpını silmek için yetkin yok. Gerekli: &a warplite.delete&c!"
+failedToDeleteFile: "&7[&eWarp&7] &c{0}{1} dosyası silinemedi. Dosya mevcut olmayabilir veya kullanımda olabilir."

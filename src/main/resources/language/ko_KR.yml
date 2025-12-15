@@ -1,0 +1,11 @@
+warp: "&7[&e워프&7] &a워프 지점 &6{0}&a(으)로 이동했습니다!"
+noPermissionWarp: "&7[&e워프&7] &c워프 지점 &6{0}&c 으로 이동할 권한이 없습니다. 필요 권한: &a warpLite.{0}/warpLite.*&c"
+noWarp: "&7[&e워프&7] &c워프 지점 &6{0} &c이(가) 존재하지 않습니다!"
+noPlayer: "&7[&e워프&7] &c오프라인 플레이어 &a{0} &c를 워프 지점 &6{0}&c 으로 이동시킬 수 없습니다!"
+
+setWarp: "&7[&e워프&7] &a워프 지점 &6{0} &a설정 완료!"
+noPermissionSetWarp: "&7[&e워프&7] &c워프 지점을 설정할 권한이 없습니다. 필요 권한: &a warpLite.set&c"
+
+warpDelete: "&7[&e워프&7] &a워프 지점 &6{0} &a삭제 완료!"
+noPermissionWarpDelete: "&7[&e워프&7] &c워프 지점 &6{0}&c 을 삭제할 권한이 없습니다. 필요 권한: &a warplite.delete&c"
+failedToDeleteFile: "&7[&e워프&7] &c파일 {0}{1} 을(를) 삭제할 수 없습니다. 파일이 없거나 사용 중일 수 있습니다."
