@@ -28,7 +28,15 @@ public class TabComplete implements TabCompleter {
             }
         }
 
-        if (s.equalsIgnoreCase("setwarp")) {
+        if (s.equalsIgnoreCase("setWarp")) {
+            if (args.length == 1) {
+                return Warp.INSTANCE.getWarps().keySet().stream()
+                        .filter(name -> name.toLowerCase().startsWith(args[0].toLowerCase()))
+                        .collect(Collectors.toList());
+            }
+        }
+
+        if (s.equalsIgnoreCase("deleteWarp")) {
             if (args.length == 1) {
                 return Warp.INSTANCE.getWarps().keySet().stream()
                         .filter(name -> name.toLowerCase().startsWith(args[0].toLowerCase()))

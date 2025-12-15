@@ -70,7 +70,7 @@ public enum Warp {
 
     /** 检查 ./plugins/WarpLite 目录中是否有warps文件夹没有就创建！ */
     @SuppressWarnings({"ResultOfMethodCallIgnored"})
-    private File getWarpFolder() {
+    public File getWarpFolder() {
         File pluginFolder = Get.plugin().getDataFolder();
         if (!pluginFolder.isDirectory()) {
             throw new IllegalStateException();
@@ -93,17 +93,6 @@ public enum Warp {
         }
     }
 
-    public static Map<String, String> setWarpMap(String world, String x, String y, String z, String yaw, String pitch) {
-        Map<String, String> data = new HashMap<>();
-        data.put("world", world);
-        data.put("x"    , x);
-        data.put("y"    , y);
-        data.put("z"    , z);
-        data.put("yaw"  , yaw);
-        data.put("pitch", pitch);
-        return data;
-    }
-
     /** 将Map序列化为Json */
     @SuppressWarnings({"ALL"})
     public void saveJsonData(String fileName, Map<String, String> data) {
@@ -115,19 +104,31 @@ public enum Warp {
         }
     }
 
+    /** Location模板但是Map */
+    public static Map<String, String> setWarpMap(String world, String x, String y, String z, String yaw, String pitch) {
+        Map<String, String> data = new HashMap<>();
+        data.put("world", world);
+        data.put("x"    , x);
+        data.put("y"    , y);
+        data.put("z"    , z);
+        data.put("yaw"  , yaw);
+        data.put("pitch", pitch);
+        return data;
+    }
+
     /** 忽略大小写判断文件名后缀是否为 .json */
-    public static boolean isJsonFile(String name) {
+    private static boolean isJsonFile(String name) {
         if (name == null) return false;
         return name.toLowerCase(Locale.ROOT).endsWith(".json");
     }
 
     /** 删除文件后缀保留文件名 */
-    public static String removeSuffix(String name) {
+    private static String removeSuffix(String name) {
         return name.substring(0, name.length() - 5);
     }
 
     /** 删除文件名保留后缀名 */
-    public static String getSuffix(String name) {
+    private static String getSuffix(String name) {
         return name.substring(name.length() - 5);
     }
 

@@ -1,0 +1,11 @@
+warp: "&7[&e地标&7] &a已传送到 &6{0} &a地标！"
+noPermissionWarp: "&7[&e地标&7] &c无法传送 &6{0} &c地标，没有&a warpLite.{0}/warpLite.* &c权限！"
+noWarp: "&7[&e地标&7] &c没有 &6{0} &c地标！"
+noPlayer: "&7[&e地标&7] &c无法将 &a{0} &c离线玩家传送到 &6{0} &c地标！"
+
+setWarp: "&7[&e地标&7] &a成功设置 &6{0} &a地标！"
+noPermissionSetWarp: "&7[&e地标&7] &c地标设置失败，没有&a warpLite.set &c权限！"
+
+warpDelete: "&7[&e地标&7] &a成功删除 &6{0} &a地标！"
+noPermissionWarpDelete: "&7[&e地标&7] &c无法删除 &6{0} &c地标，没有&a warplite.delete &c权限！"
+failedToDeleteFile: "&7[&e地标&7] &c无法删除 {0}{1} 文件，可能文件已不存在或被占用中。"
