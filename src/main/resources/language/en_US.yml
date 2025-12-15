@@ -1,0 +1,11 @@
+warp: "&7[&eWarp&7] &aSuccessfully teleported to the &6{0}&a warp!"
+noPermissionWarp: "&7[&eWarp&7] &cUnable to teleport to the &6{0}&c warp. Missing the &a warpLite.{0}/warpLite.*&c permission!"
+noWarp: "&7[&eWarp&7] &cThe &6{0}&c warp does not exist!"
+noPlayer: "&7[&eWarp&7] &cUnable to teleport the offline player &a{0} &cto the &6{0}&c warp!"
+
+setWarp: "&7[&eWarp&7] &aSuccessfully set the &6{0}&a warp!"
+noPermissionSetWarp: "&7[&eWarp&7] &cFailed to set warp. Missing the &a warpLite.set&c permission!"
+
+warpDelete: "&7[&eWarp&7] &aSuccessfully deleted the &6{0}&a warp!"
+noPermissionWarpDelete: "&7[&eWarp&7] &cUnable to delete the &6{0}&c warp. Missing the &a warplite.delete&c permission!"
+failedToDeleteFile: "&7[&eWarp&7] &cUnable to delete the {0}{1} file. The file may not exist or is currently in use."
