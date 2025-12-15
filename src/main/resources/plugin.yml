@@ -5,6 +5,4 @@ main: com.maddyjace.warplite.WarpLite
 commands:
   warplite:
     description: Main plugin command.
-    aliases: [warplite, warp, setwarp, removewarp]
-    permission: warplite.admin
-    permission-default: true
+    aliases: [warplite, warp, setwarp, deleteWarp]
