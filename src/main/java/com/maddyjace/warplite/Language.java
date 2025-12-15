@@ -11,6 +11,7 @@ import java.util.function.BiConsumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@SuppressWarnings({"ALL"})
 public enum Language {
     Get;
 

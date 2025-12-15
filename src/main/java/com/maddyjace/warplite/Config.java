@@ -5,6 +5,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
 
+@SuppressWarnings({"ALL"})
 public enum Config {
     INSTANCE();
 
@@ -20,8 +21,14 @@ public enum Config {
         Config.language = config.getString( "language", "en_US");
     }
 
+
     private File getConfigFile() {
         File pluginFolder = Get.plugin().getDataFolder();
+
+        if (!pluginFolder.exists()) {
+            pluginFolder.mkdirs();
+        }
+
         if (!pluginFolder.isDirectory()) {
             throw new IllegalStateException();
         }

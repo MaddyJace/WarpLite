@@ -9,6 +9,7 @@ import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import java.io.File;
 import java.util.Map;
 
+@SuppressWarnings({"ALL"})
 public class Commands implements Listener {
 
     private final Warp warp = Warp.INSTANCE;
