@@ -37,19 +37,24 @@ public class Commands implements Listener {
     private void warp(Player player, String[] args) {
         if (player.hasPermission("warplite." + args[1]) || player.hasPermission("warplite.*")) {
 
-            if (args.length == 2 && warp.getWarps().containsKey(args[1])) {
-                player.teleport(warp.getWarps().get(args[1]));
-                player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "warp", args[1]));
-            } else { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noWarp", args[1])); }
-
-            if (args.length == 3 && warp.getWarps().containsKey(args[1])) {
-                Player target = Bukkit.getPlayer(args[2]);
-                if (getOnlinePlayer(args[2]) != null) {
-                    target.teleport(warp.getWarps().get(args[1]));
+            if (args.length == 2) {
+                if (warp.getWarps().containsKey(args[1])) {
+                    player.teleport(warp.getWarps().get(args[1]));
                     player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "warp", args[1]));
-                } else { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noPlayer", args[1])); }
-            } else { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noWarp", args[1])); }
+                    return;
+                } else { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noWarp", args[1])); }
+            }
 
+            if (args.length == 3) {
+                if (warp.getWarps().containsKey(args[1])) {
+                    Player target = Bukkit.getPlayer(args[2]);
+                    if (getOnlinePlayer(args[2]) != null) {
+                        target.teleport(warp.getWarps().get(args[1]));
+                        player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "warp", args[1]));
+                        return;
+                    } else { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noPlayer", args[1])); }
+                } else  { player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noPlayer", args[1])); }
+            }
         } else {
             player.sendMessage(lang.translate(player.getLocale().toLowerCase(), "noPermissionWarp", args[1]));
         }
