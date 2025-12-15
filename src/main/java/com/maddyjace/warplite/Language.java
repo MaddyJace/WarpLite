@@ -32,7 +32,7 @@ public enum Language {
     public String translate(String language, String key, String... args) {
         Map<String, String> langMap = languages.get(language);
         if (langMap == null) {
-            langMap = languages.get(Config.language);
+            langMap = languages.get(Config.language.toLowerCase());
         }
         String result = langMap.get(key);
         if (result == null) {

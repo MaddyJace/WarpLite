@@ -124,12 +124,16 @@ public enum Warp {
 
     /** 删除文件后缀保留文件名 */
     private static String removeSuffix(String name) {
-        return name.substring(0, name.length() - 5);
+        int index = name.lastIndexOf('.');
+        if (index == -1) return name;
+        return name.substring(0, index);
     }
 
     /** 删除文件名保留后缀名 */
     private static String getSuffix(String name) {
-        return name.substring(name.length() - 5);
+        int index = name.lastIndexOf('.');
+        if (index == -1) return "";
+        return name.substring(index);
     }
 
 }

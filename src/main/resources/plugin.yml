@@ -7,4 +7,3 @@ commands:
     description: Main plugin command.
     aliases: [warplite, warp, setwarp, removewarp]
     permission: warplite.admin
-    permission-default: true
